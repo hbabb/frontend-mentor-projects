@@ -1,22 +1,22 @@
 @import url("/07-testimonials-grid/css/global/fonts.css");
 
 :root {
-  --c-black: oklch(18.22% 0.00002 271.152);
-  --c-darkBlue: oklch(24.294% 0.02708 262.553);
-  --c-white: oklch(100% 0.00011 271.152);
-  --c-grey-100: oklch(93.59% 0.00639 255.741);
-  --c-grey-200: oklch(85.452% 0.0001 271.152);
-  --c-grey-400: oklch(53.569% 0.02766 270.067);
-  --c-grey-500: oklch(44.675% 0.03841 259.945);
-  --c-purple-50: oklch(93.404% 0.03747 300.772);
-  --c-purple-300: oklch(66.713% 0.18104 300.153);
-  --c-purple-500: oklch(50.71% 0.20064 295.792);
-  --space-500: 2.5rem;
-  --space-400: 2rem;
-  --space-300: 1.5rem;
-  --space-200: 1rem;
-  --space-100: 0.5rem;
-  --space-50: 0.25rem;
+  --c-black: oklch(18.22% 0.00002 271.152); /*#121212*/
+  --c-darkBlue: oklch(24.294% 0.02708 262.553); /*#19202d*/
+  --c-white: oklch(100% 0.00011 271.152); /*#ffffff*/
+  --c-grey-100: oklch(93.59% 0.00639 255.741); /*#e7eaee*/
+  --c-grey-200: oklch(85.452% 0.0001 271.152); /*#cfcfcf*/
+  --c-grey-400: oklch(53.569% 0.02766 270.067); /*#676d7e*/
+  --c-grey-500: oklch(44.675% 0.03841 259.945); /*#48556a*/
+  --c-purple-50: oklch(93.404% 0.03747 300.772); /*#ede4ff*/
+  --c-purple-300: oklch(66.713% 0.18104 300.153); /*#a775f1*/
+  --c-purple-500: oklch(50.71% 0.20064 295.792); /*#733fc8*/
+  --space-500: 2.5rem; /*40px*/
+  --space-400: 2rem; /*32px*/
+  --space-300: 1.5rem; /*24px*/
+  --space-200: 1rem; /*16px*/
+  --space-100: 0.5rem; /*8px*/
+  --space-50: 0.25rem; /*4px*/
 }
 
 .text-preset-1 {

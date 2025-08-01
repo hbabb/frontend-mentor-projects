@@ -2,7 +2,167 @@
 @import url("/07-testimonials-grid/css/global/variables.css");
 @import url("/07-testimonials-grid/css/global/fonts.css");
 
-main {
+body {
   height: 100dvh;
   width: 100%;
+}
+
+main {
+  padding: var(--space-400, 4.5625rem) var(--space-200, 2.1875rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center;
+  align-items: center;
+  background: oklch(97.12% 0.00176 322.66);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-400, 2rem);
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-400, 2rem);
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--space-200, 1rem);
+  align-self: stretch;
+  border-radius: var(--space-100, 0.5rem);
+  box-shadow: 3rem 4.25rem 3.125rem -2.9375rem rgba(72, 85, 106, 0.25);
+  z-index: 0;
+}
+
+p {
+  align-self: stretch;
+  width: 100%;
+}
+
+.card-1 {
+  background: var(--c-purple-500, #733fc8);
+  color: var(--c-white, #fff);
+}
+
+.card-2 {
+  background: var(--c-grey-500, #48556a);
+  color: var(--c-white, #fff);
+}
+
+.card-3,
+.card-5 {
+  background: var(--c-white, #fff);
+  color: var(--c-grey-500, #48556a);
+}
+
+.card-4 {
+  background: var(--c-darkBlue, #19202d);
+  color: var(--c-white, #fff);
+}
+
+.avatar {
+  width: 1.75rem;
+  height: auto;
+  border-radius: 100%;
+}
+
+.avatar-border {
+  border: 0.125rem solid var(--c-purple-300);
+}
+
+.card__header {
+  display: flex;
+  flex-direction: row;
+  gap: 1.0625rem;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-50, 0.25rem);
+}
+
+.quotation {
+  display: none;
+}
+
+.attribution {
+  width: 100%;
+  margin-top: auto;
+  padding: var(--space-100);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attribution .link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.attribution .link:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.attribution .link:visited {
+  color: purple;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 5.1875rem 3.8125rem 7.0625rem;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-1,
+  .card-4,
+  .card-5 {
+    grid-column: span 2;
+  }
+
+  .attribution {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: var(--space-500);
+  }
+
+  .card-1 {
+    position: relative;
+  }
+
+  .quotation {
+    display: block;
+    position: absolute;
+    left: 23.5rem;
+    top: 0;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    padding: 14.3125rem 10.0625rem 13.625rem;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card-1,
+  .card-4 {
+    grid-column: span 2;
+  }
+
+  .card-5 {
+    grid-column: 4;
+    grid-row: 1 / 3;
+  }
 }

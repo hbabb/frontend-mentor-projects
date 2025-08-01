@@ -9,6 +9,11 @@
   padding: 0;
 }
 
+/* Set the base font size */
+html {
+  font-size: 16px;
+}
+
 /* 2. Remove default body margin and set line-height */
 body {
   margin: 0;
@@ -46,7 +51,8 @@ h6 {
 }
 
 p {
-  text-wrap: pretty;
+  overflow-wrap: break-word;
+  text-wrap: stable;
 }
 
 /* 6. Media elements */
