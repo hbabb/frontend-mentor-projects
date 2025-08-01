@@ -1,6 +1,6 @@
-@import url("/07-testimonials-grid/css/global/reset.css");
-@import url("/07-testimonials-grid/css/global/variables.css");
-@import url("/07-testimonials-grid/css/global/fonts.css");
+@import url("/css/global/reset.css");
+@import url("/css/global/variables.css");
+@import url("/css/global/fonts.css");
 
 body {
   height: 100dvh;
