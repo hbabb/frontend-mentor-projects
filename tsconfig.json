@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    // Target modern browsers for Frontend Mentor projects
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    // Allow importing .json files
+    "resolveJsonModule": true,
+    // Allow JavaScript files
+    "allowJs": true,
+    "checkJs": false,
+
+    // Strict type checking (helps with IntelliSense)
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    // Don't emit any files (we're not compiling)
+    "noEmit": true,
+
+    "allowSyntheticDefaultImports": true,
+    // Module resolution
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Skip library checking for faster performance
+    "skipLibCheck": true
+  },
+  "include": [
+    "**/*.js",
+    "**/*.mjs",
+    "**/*.ts",
+    "**/*.json"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}

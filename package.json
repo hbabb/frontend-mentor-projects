@@ -1,0 +1,24 @@
+{
+  "name": "frontend-mentor",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.13.1",
+  "description": "Frontend Mentor Project by Heath Babb",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.0.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-format": "^1.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2"
+  },
+  "lint-staged": {
+    "*": "pnpm lint"
+  }
+}
