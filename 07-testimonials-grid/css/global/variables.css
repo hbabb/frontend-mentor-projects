@@ -1,0 +1,52 @@
+@import url("/07-testimonials-grid/css/global/fonts.css");
+
+:root {
+  --c-black: oklch(18.22% 0.00002 271.152); /*#121212*/
+  --c-darkBlue: oklch(24.294% 0.02708 262.553); /*#19202d*/
+  --c-white: oklch(100% 0.00011 271.152); /*#ffffff*/
+  --c-grey-100: oklch(93.59% 0.00639 255.741); /*#e7eaee*/
+  --c-grey-200: oklch(85.452% 0.0001 271.152); /*#cfcfcf*/
+  --c-grey-400: oklch(53.569% 0.02766 270.067); /*#676d7e*/
+  --c-grey-500: oklch(44.675% 0.03841 259.945); /*#48556a*/
+  --c-purple-50: oklch(93.404% 0.03747 300.772); /*#ede4ff*/
+  --c-purple-300: oklch(66.713% 0.18104 300.153); /*#a775f1*/
+  --c-purple-500: oklch(50.71% 0.20064 295.792); /*#733fc8*/
+  --space-500: 2.5rem; /*40px*/
+  --space-400: 2rem; /*32px*/
+  --space-300: 1.5rem; /*24px*/
+  --space-200: 1rem; /*16px*/
+  --space-100: 0.5rem; /*8px*/
+  --space-50: 0.25rem; /*4px*/
+}
+
+.text-preset-1 {
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.text-preset-2 {
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 110%;
+  letter-spacing: 0;
+}
+
+.text-preset-3 {
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 140%;
+  letter-spacing: 0;
+}
+
+.text-preset-4 {
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.6875rem;
+  line-height: 110%;
+  letter-spacing: 0;
+}
